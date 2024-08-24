@@ -7,7 +7,9 @@ Eand
 
 Clearecd
 
-Mokline 
+Mokline
+
+.README.md.swp dleted 
 
 # ALX Interview
 
