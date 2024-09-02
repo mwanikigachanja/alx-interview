@@ -11,7 +11,7 @@ Mokline
 
 .README.md.swp dleted
 
-Brighter grad 
+Brighter grad-hatutaki umbleina msee 
 
 # ALX Interview
 
