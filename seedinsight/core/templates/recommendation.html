@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seed Recommendations</title>
+    <link rel="stylesheet" href="{% static 'core/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Seed Recommendations</h1>
+        <nav>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'seed_recommendation' %}">Seed Recommendation</a>
+        </nav>
+    </header>
+    <main>
+        <form method="post">
+            {% csrf_token %}
+            <label for="ecozone">Select Ecozone:</label>
+            <select name="ecozone" id="ecozone">
+                {% for ecozone in ecozones %}
+                <option value="{{ ecozone.id }}">{{ ecozone.name }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Get Recommendations</button>
+        </form>
+
+        {% if seeds %}
+        <h2>Recommended Seeds</h2>
+        <table>
+            <tr>
+                <th>Variety</th>
+                <th>Maturity Period</th>
+                <th>Seed Rate/Acre</th>
+                <th>Attributes</th>
+            </tr>
+            {% for seed in seeds %}
+            <tr>
+                <td>{{ seed.name }}</td>
+                <td>{{ seed.maturity_period }} days</td>
+                <td>{{ seed.seed_rate }} kg/acre</td>
+                <td>{{ seed.attributes }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+    </main>
+    <footer>
+        <p>Developed by Charles Mwaniki</p>
+    </footer>
+</body>
+</html>
+
