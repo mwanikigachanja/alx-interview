@@ -13,7 +13,9 @@ Mokline
 
 Brighter grad-hatutaki umbleina msee
 
-Rada chafu 
+Rada chafu
+
+NOW OFFICIALLY AN ALX SOFTWARE ENGINEER 
 
 # ALX Interview
 
