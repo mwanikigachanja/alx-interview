@@ -5,6 +5,8 @@ Mablined
 
 Working on a new seedinsight app
 
+Mob just
+
 More tasks handled. It has been an honor buana (on  a lighter note though).
 
 Eand
