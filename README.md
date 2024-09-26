@@ -7,6 +7,9 @@ Working on a new seedinsight app
 
 Mob just
 
+
+Nothing, just a commit
+
 More tasks handled. It has been an honor buana (on  a lighter note though).
 
 Eand
