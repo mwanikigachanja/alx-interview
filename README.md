@@ -8,7 +8,7 @@ Working on a new seedinsight app
 Mob just
 
 
-Nothing, just a commit
+Nothing, just a commit - no more CCD
 
 More tasks handled. It has been an honor buana (on  a lighter note though).
 
